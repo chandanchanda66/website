@@ -1,0 +1,23 @@
+{
+    "name": "wedding_site",
+    "version": "1.0.0",
+    "description": "THIS IS WEDDING SITE",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chandanchanda66/website.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chandanchanda66/website/issues"
+    },
+    "homepage": "https://github.com/chandanchanda66/website#readme",
+    "dependencies": {
+        "firebase-tools": "^9.16.0"
+    },
+    "devDependencies": {}
+}
