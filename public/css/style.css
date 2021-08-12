@@ -794,8 +794,8 @@ header {
 }
 
 .im1 {
-  width: 302px;
-  height: 302px;
+  width: 402px;
+  height: 402px;
   border-radius: 50%;
   position: absolute;
   left: 0;
@@ -808,15 +808,15 @@ header {
   display: block;
   content: "";
   position: absolute;
-  width: 302px;
-  height: 302px;
+  width: 402px;
+  height: 402px;
   border: 7px solid rgba(255, 255, 255, 0.4);
   border-radius: 50%;
 }
 
 .im2 {
-  width: 302px;
-  height: 302px;
+  width: 402px;
+  height: 402px;
   border-radius: 50%;
   position: absolute;
   right: 0;
@@ -830,23 +830,23 @@ header {
 }
 
 .im_arrows:before {
-  width: 39px;
-  height: 77px;
+  width: 49px;
+  height: 87px;
   display: block;
   content: "";
   position: absolute;
-  top: -43px;
-  right: 20px
+  top: -33px;
+  right: 10px
 }
 
 .im_arrows:after {
-  width: 13px;
-  height: 38px;
+  width: 23px;
+  height: 48px;
   display: block;
   content: "";
   position: absolute;
-  bottom: -34px;
-  right: 120px
+  bottom: -24px;
+  right: 110px
 }
 
 /*# 6. Our Story*/
