@@ -99,7 +99,8 @@
 </head>
 
 <body>
-    <audio controls autoplay loop preload="auto" hidden>
+    <!-- <iframe src=”calm.mp3″ type=”audio/mp3″ allow=”autoplay” id=”audio” style=”display:none”></iframe> -->
+    <audio controls autoplay loop preload="auto" autoplay="true" hidden>
         <source src="calm.mp3" type="audio/mp3">
     </audio>
     <!-- Header -->
@@ -139,11 +140,10 @@
 
         <!-- Intro -->
         <section class="home_intro  parallax2" data-image="img/wine.jpg">
-            
             <div class="home_txt" data-0="opacity:1" data-top-bottom="opacity:0">
 
                 <!-- Intro Text -->
-                <div class="box"  style="border-radius: 15px 50px 30px; ">
+                <div class="box" style="border-radius: 15px 50px 30px; ">
                     <div class="title1 title1_2">Save the Date!</div>
                     <!-- <div class="title1"><span>18 <b>02</b></span></div> -->
                     <div class="title1"><span>27  -  08  -  21</span></div>
@@ -158,26 +158,41 @@
         <!-- Married -->
         <section class="married clearfix" id="married">
             <div class="container">
-                <div class="im1 parallax" data-bottom="left:30%" data-center="left:-15" data-image="img/alankar2.jpg">
-                    <div class="im_arrows"></div>
+                <div>
+                    <div class="im1 parallax" data-bottom="left:30%" data-center="left:-15" data-image="img/alankar2.jpg">
+                        <div class="im_arrows"></div>
+                    </div>
+                    <div class="im2 parallax" data-bottom="right:20%" data-center="right:-15" data-image="img/ish.jpg" data-original-title="Vidhya Shivalingam">
+                        <div class="im_arrows"></div>
+                    </div>
                 </div>
-                <div class="im2 parallax" data-bottom="right:20%" data-center="right:-15" data-image="img/ish.jpg" data-original-title="Vidhya Shivalingam">
-                    <div class="im_arrows"></div>
-                </div>
+
 
                 <div class="married_txt" data-bottom="opacity:0" data-center="opacity:1">
                     <h2>You're Invited</h2>
                     <b> Venkatesh A &amp; Iswariya G</b><br>
                     <div class="title1 title1_2">Wedding</div>
-                     <!-- are getting married in Madurai, TN.<br> -->
-                    <br>On the 27th of August, 2021 <br>
-                    Friday between 6.00 AM to 7.30 AM<br>
+                    <!-- are getting married in Madurai, TN.<br> -->
+                    <br>On the 27th of August, 2021 <br> Friday between 6.00 AM to 7.30 AM<br> Hotel Weshtern Park, Madurai<br>
                     <br>
-                    <div class="title1 title1_2">Reception</div><br>
-                    On the 26th of August, 2021 <br>
-                    Thursday between 6.30 PM to 9 PM<br> 
+                    <div class="title1 title1_2">Receptions</div>
+                    <br>
+                    <div class="title3">
+                        Pre-wedding
+                    </div>
+                    <!-- <div class="title1 title1_2">Pre-wedding </div> -->
+                    On the 26th of August, 2021 <br> Thursday between 6.30 PM to 9 PM<br> Hotel Weshtern Park, Madurai
                     <!-- <a href="#rsvp" class="btn go">RSVP NOW</a> -->
-
+                    <br>
+                    <br>
+                    <div class="title3">
+                        Post-wedding
+                    </div>
+                    <!-- <div class="title1 title1_2">Post-wedding </div> -->
+                    <!-- are getting married in Madurai, TN.<br> -->
+                    On the 1st of September, 2021 <br> Wednesday, starts from 6.00 PM
+                    <br> Pakshi R Gopalan Chettiyar Kalyana Mandapam, Cuddalore<br>
+                    <br>
                     <div class="married_coundown"></div>
                     <div class="double_arrow"></div>
                 </div>
@@ -203,19 +218,20 @@
                     <div class="title3"><a class="maplink" href="https://goo.gl/maps/a5uc1w72kdgD26zAA" target="_blank">
                       Railway Junction, <br/> West Gate Opposite, <br/>Madurai, <br/>
                   <br/><i class="flaticon-map35" style="color: gold"></i></a></div>
-                  <br>
-                  <section class="map1 cid-qIiXmYb55q" id="map1-b">
-                   <!-- style=" height: 80%; background: rgba(255, 255, 255, 0.2); 
+                    <br>
+                    <section class="map1 cid-qIiXmYb55q" id="map1-b">
+                        <!-- style=" height: 80%; background: rgba(255, 255, 255, 0.2); 
                   backdrop-filter: blur(8px); border-radius: 15px 50px 30px; "> -->
 
-                    <div class="google-map"  style="padding: 3rem;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.1796648685495!2d78.10558951474157!3d9.918990092906695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf7c33b76cff%3A0xda26a1b8c08a27ea!2sWeshtern%20Park!5e0!3m2!1sen!2sin!4v1628620305962!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </section>
+                        <div class="google-map" style="padding: 3rem;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.1796648685495!2d78.10558951474157!3d9.918990092906695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf7c33b76cff%3A0xda26a1b8c08a27ea!2sWeshtern%20Park!5e0!3m2!1sen!2sin!4v1628620305962!5m2!1sen!2sin"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </section>
+                    </div>
                 </div>
-            </div>
         </section>
         <!-- When & Where End -->
-        
+
         <!-- Events -->
         <section class="our_story events" id="events">
             <h2>Our Events</h2>
@@ -307,39 +323,39 @@
         <!-- Events End -->
 
         <!-- RSVP -->
-       
+
         <!-- RSVP End -->
-        <section id="story"  class="gallery" >
+        <section id="story" class="gallery">
             <h2> Our Story</h2>
-            <div class="box"  style=" background: rgba(255, 255, 255, 0.2);background-repeat: no-repeat;
+            <div class="box" style=" background: rgba(255, 255, 255, 0.2);background-repeat: no-repeat;
              background-image: url(img/g.jpg); background-size: cover;
             backdrop-filter: blur(8px);  opacity: 0.8;">
-        <h3>
-            <br>Engaged on 18-04-2021<br>
-            <br>at Club mahindra, Pondicherry<br> 
-        </h3>
-        <video loop muted autoplay height="300" width="300" >
+                <h3>
+                    <br>Engaged on 18-04-2021<br>
+                    <br>at Club mahindra, Pondicherry<br>
+                </h3>
+                <video loop muted autoplay height="300" width="300">
             <source src="unique.mp4" type="video/mp4">
            </video>
                 <br>
                 <h2 style="color:white;">A Venkatesh B.E., MBA.,</h2>
                 <!-- <div class="title1"><span>18 <b>02</b></span></div> -->
-                <div class="title0"><strong>
+                <!-- <div class="title0"><strong>
                     Project Co-ordinator Kauvery Group of hospitals, Chennai 
                 </strong><br>
-                    <br></div>
-                    <br>
-                    <h2  style="color:white;">G. Iswariya B.Arch.,</h2>
+                    <br></div> -->
+                <br>
+                <h2 style="color:white;">G. Iswariya B.Arch.,</h2>
                 <!-- <div class="title1"><span>18 <strong>02</strong></span></div> -->
-                <div class="title0" > <strong>
+                <!-- <div class="title0"> <strong>
                     Senior Architect, Smart Home Decors, Chennai
                 </strong><br>
-                <br>
+                    <br>
 
-            </div>
+                </div> -->
         </section>
         <!-- When & Where End -->
-        
+
 
         <!-- Gallery -->
         <section class="gallery" id="gallery">
@@ -361,31 +377,11 @@
                 </div>
                 <div class="gallery_item">
                     <div class="gallery_txt">
-                        <a href="img/f.jpg" title="Engagement Photos"><b>special</b>
+                        <a href="img/f.jpg" title="Engagement Photos"><b><div class="thanks">&#10084;</div>
+                        </b>
                       </a>
                     </div>
                     <img src="img/f.jpg" alt="Gallery 2">
-                </div>
-                <!-- <div class="gallery_item">
-                    <div class="gallery_txt">
-                        <a href="img/craft.jpg" title="Engagement Photos"><b>forever</b>
-                      </a>
-                    </div>
-                    <img src="img/craft.jpg" alt="Gallery 2">
-                </div> -->
-                <div class="gallery_item">
-                    <div class="gallery_txt">
-                        <a href="img/DJ.jpg" title="Engagement Photos"><b>memories</b>
-                      </a>
-                    </div>
-                    <img src="img/DJ.jpg" alt="Gallery 2">
-                </div>
-                <div class="gallery_item">
-                    <div class="gallery_txt">
-                        <a href="img/dance.jpg" title="Engagement Photos"><b>dance mode</b>
-                      </a>
-                    </div>
-                    <img src="img/dance.jpg" alt="Gallery 2">
                 </div>
                 <div class="gallery_item">
                     <div class="gallery_txt">
@@ -393,6 +389,13 @@
                       </a>
                     </div>
                     <img src="img/d.jpg" alt="Gallery 4">
+                </div>
+                <div class="gallery_item">
+                    <div class="gallery_txt">
+                        <a href="img/events.jpg" title="Engagement Photos"><b>dance floor</b>
+                      </a>
+                    </div>
+                    <img src="img/events.jpg" alt="Gallery 2">
                 </div>
                 <div class="gallery_item">
                     <div class="gallery_txt">
@@ -417,6 +420,20 @@
                 </div>
                 <div class="gallery_item">
                     <div class="gallery_txt">
+                        <a href="img/DJstep.jpg" title="Engagement Photos"><b>memories</b>
+                      </a>
+                    </div>
+                    <img src="img/DJstep.jpg" alt="Gallery 2">
+                </div>
+                <div class="gallery_item">
+                    <div class="gallery_txt">
+                        <a href="img/dance.jpg" title="Engagement Photos"><b>dance mode</b>
+                      </a>
+                    </div>
+                    <img src="img/dance.jpg" alt="Gallery 2">
+                </div>
+                <div class="gallery_item">
+                    <div class="gallery_txt">
                         <a href="img/pre_wed.jpg" title="Engagement Photos"><b>pre Wedding</b>
                       </a>
                     </div>
@@ -432,21 +449,21 @@
                 <div class="thanks">&#10084;</div>
                 <br>
                 <br>
-<br>
-                <div class="title1">Family & friends               
+                <br>
+                <div class="title1">Family & friends
                 </div>
                 <!-- Copyrights -->
-                <div class="copyrights" >Surprise! &nbsp;Don't forget your dancing shoes!</div>
+                <div class="copyrights">Surprise! &nbsp;Don't forget your dancing shoes!</div>
                 <!-- Thanks Text -->
                 <div class="footer_txt">
-                      <!-- Social Buttons -->
-                      <!-- <div class="footer_social">
+                    <!-- Social Buttons -->
+                    <!-- <div class="footer_social">
                         <a href="https://www.facebook.com/venkatesh.guru.908"><i class="fa fa-facebook"></i></a>
                         <a href="https://instagram.com/venkatesh_guruu?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
                     </div> -->
                     <br>
                     <br>
-                    
+
 
                 </div>
             </div>
@@ -486,7 +503,7 @@
         <script src="js/script.js"></script>
 
 
-    </div>
+        </div>
 
 </body>
 
