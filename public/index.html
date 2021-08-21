@@ -23,6 +23,7 @@
     <!-- Color CSS -->
     <link href="css/red.css" rel="stylesheet">
     <link rel="stylesheet" href="css/testStyle.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
     <!-- Google Fonts -->
     <link href='//fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
@@ -100,9 +101,11 @@
 
 <body>
     <!-- <iframe src=”calm.mp3″ type=”audio/mp3″ allow=”autoplay” id=”audio” style=”display:none”></iframe> -->
-    <audio controls autoplay loop preload="auto" autoplay="true" hidden>
-        <source src="calm.mp3" type="audio/mp3">
-    </audio>
+    <audio controls style="display:none" id="audio">
+        <source src="calm.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+
     <!-- Header -->
     <header>
         <div class="header_plane anim"></div>
@@ -137,11 +140,30 @@
     <!-- Header End -->
 
     <div class="page">
-
         <!-- Intro -->
-        <section class="home_intro  parallax2" data-image="img/wine.jpg">
-            <div class="home_txt" data-0="opacity:1" data-top-bottom="opacity:0">
 
+        <section class="home_intro  parallax2" data-image="img/wine.jpg">
+
+            <script type="text/javascript">
+                function autoplay() {
+                    console.log("vloi")
+                    var r = confirm("Would You Like To AutoPlay Music?");
+                    if (r == true) {
+                        document.getElementById("audio").play();
+                    }
+                }
+            </script>
+            <script>
+                autoplay()
+            </script>
+            <div class="video_wrapper">
+                <video loop autoplay muted class="iframe_wrapper">
+                    <source src="live_stream.mp4" type="video/mp4">
+                   </video>
+                <!-- <iframe class="iframe_wrapper" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe> -->
+            </div>
+            <div class="home_txt" data-0="opacity:1" data-top-bottom="opacity:0">
                 <!-- Intro Text -->
                 <div class="box" style="border-radius: 15px 50px 30px; ">
                     <div class="title1 title1_2">Save the Date!</div>
@@ -501,9 +523,10 @@
 
         <!-- Theme JS -->
         <script src="js/script.js"></script>
-
-
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         </div>
+
 
 </body>
 
